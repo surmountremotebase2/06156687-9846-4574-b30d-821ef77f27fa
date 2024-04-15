@@ -5,7 +5,7 @@ from surmount.data import Asset, InstitutionalOwnership, InsiderTrading
 class TradingStrategy(Strategy):
     def __init__(self):
         # SH is the ProShares Short S&P 500 ETF, and SPY represents the S&P 500
-        self.asset_to_trade = "SH" 
+        self.asset_to_trade = "QYLD" 
         self.reference_asset = "SPY"
         self.short_term_sma_length = 1
         self.long_term_sma_length = 10
