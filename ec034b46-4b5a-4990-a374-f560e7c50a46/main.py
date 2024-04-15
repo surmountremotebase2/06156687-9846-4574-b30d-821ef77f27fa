@@ -7,8 +7,8 @@ class TradingStrategy(Strategy):
         # SH is the ProShares Short S&P 500 ETF, and SPY represents the S&P 500
         self.asset_to_trade = "SH" 
         self.reference_asset = "SPY"
-        self.short_term_sma_length = 10
-        self.long_term_sma_length = 30
+        self.short_term_sma_length = 1
+        self.long_term_sma_length = 10
 
     @property
     def assets(self):
